@@ -13,6 +13,12 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="core">
+      <UniqueIdentifier>{c902f954-3548-4ac3-b08a-3263c113e3e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="testing">
+      <UniqueIdentifier>{71f33006-292e-4120-8f88-d87cc6dcfc56}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="test.cpp">
@@ -20,6 +26,30 @@
     </ClCompile>
     <ClCompile Include="jp3.cpp.ixx">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="jp3.core.ixx">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="jp3.core.initializable.ixx">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="jp3.tdd.ixx">
+      <Filter>testing</Filter>
+    </ClCompile>
+    <ClCompile Include="jp3.core.unique_resource.ixx">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="jp3.core.event.ixx">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="jp3.core.id.ixx">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="jp3.core.overloaded.ixx">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="jp3.core.event_args.ixx">
+      <Filter>core</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
