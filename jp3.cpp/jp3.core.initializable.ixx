@@ -1,4 +1,4 @@
-export module jp3.core.initializable;
+export module jp3.core:initializable;
 
 namespace jp3
 {

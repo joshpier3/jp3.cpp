@@ -1,6 +1,7 @@
 export module id_test;
 
 import jp3.tdd;
+import jp3.core;
 
 export class id_test : public jp3::tdd::test 
 {

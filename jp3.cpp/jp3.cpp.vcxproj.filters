@@ -19,6 +19,9 @@
     <Filter Include="testing">
       <UniqueIdentifier>{71f33006-292e-4120-8f88-d87cc6dcfc56}</UniqueIdentifier>
     </Filter>
+    <Filter Include="math">
+      <UniqueIdentifier>{da49e066-5423-4533-9f5c-f1ef58d2b712}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="test.cpp">
@@ -50,6 +53,27 @@
     </ClCompile>
     <ClCompile Include="jp3.core.event_args.ixx">
       <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="jp3.core.ttas_spinlock.ixx">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="jp3.math.ixx">
+      <Filter>math</Filter>
+    </ClCompile>
+    <ClCompile Include="jp3.math.position_1d.ixx">
+      <Filter>math</Filter>
+    </ClCompile>
+    <ClCompile Include="jp3.math.mathematical_unit.ixx">
+      <Filter>math</Filter>
+    </ClCompile>
+    <ClCompile Include="jp3.math.position_2d.ixx">
+      <Filter>math</Filter>
+    </ClCompile>
+    <ClCompile Include="jp3.math.position_3d.ixx">
+      <Filter>math</Filter>
+    </ClCompile>
+    <ClCompile Include="jp3.math.position_4d.ixx">
+      <Filter>math</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

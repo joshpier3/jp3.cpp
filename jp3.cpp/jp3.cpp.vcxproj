@@ -134,8 +134,15 @@
     <ClCompile Include="jp3.core.id.ixx" />
     <ClCompile Include="jp3.core.initializable.ixx" />
     <ClCompile Include="jp3.core.ixx" />
+    <ClCompile Include="jp3.core.ttas_spinlock.ixx" />
     <ClCompile Include="jp3.core.unique_resource.ixx" />
     <ClCompile Include="jp3.core.overloaded.ixx" />
+    <ClCompile Include="jp3.math.ixx" />
+    <ClCompile Include="jp3.math.mathematical_unit.ixx" />
+    <ClCompile Include="jp3.math.position_1d.ixx" />
+    <ClCompile Include="jp3.math.position_2d.ixx" />
+    <ClCompile Include="jp3.math.position_3d.ixx" />
+    <ClCompile Include="jp3.math.position_4d.ixx" />
     <ClCompile Include="jp3.tdd.ixx" />
     <ClCompile Include="test.cpp" />
     <ClCompile Include="jp3.cpp.ixx" />

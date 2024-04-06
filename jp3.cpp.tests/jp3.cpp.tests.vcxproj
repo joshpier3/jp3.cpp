@@ -134,6 +134,7 @@
     <ClCompile Include="id_test.ixx" />
     <ClCompile Include="jp3.cpp.tests.cpp" />
     <ClCompile Include="tests.ixx" />
+    <ClCompile Include="unique_resource_test.ixx" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\jp3.cpp\jp3.cpp.vcxproj">

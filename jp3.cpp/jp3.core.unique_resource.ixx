@@ -1,4 +1,4 @@
-export module jp3.core.unique_resource;
+export module jp3.core:unique_resource;
 
 import std;
 

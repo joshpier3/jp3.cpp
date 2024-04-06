@@ -1,11 +1,11 @@
-export module jp3.core.id;
+export module jp3.core:id;
 
 import std;
 
 namespace jp3
 {
 	export template<std::integral value_type = std::size_t, value_type invalid_value = (std::numeric_limits<value_type>::max)(), typename for_type = void>
-	class id
+	class id final
 	{
 	public:
 		using underlying_value_type = value_type;
@@ -46,6 +46,6 @@ namespace jp3
 
 		static std::atomic<id_value_type> s_id{ c_start_value };
 
-		return id<id_value_type, invalid_id_value, for_type>{ s_id.fetch_add(id_value_type{ 1 }, std::memory_order::relaxed) };
+		return id<id_value_type, invalid_id_value, for_type>{ s_id.fetch_add(id_value_type{ 1 }, std::memory_order::acq_rel) };
 	}
 }

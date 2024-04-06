@@ -34,7 +34,7 @@ private:
 */
 
 import std;
-import jp3.core.event;
+import jp3.core;
 
 namespace jp3::tdd
 {

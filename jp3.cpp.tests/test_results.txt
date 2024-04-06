@@ -1,0 +1,17 @@
+Running test "id".
+Default construct creates an invalid id. : passed.
+Construct with a valid value creates a valid id. : passed.
+Generate unique id for the same type actually generates a unique id. : passed.
+Generate unique id for different types generates the same id value. : passed.
+Generate unique id on invalid being zero. First id has a value of one. : passed.
+Test "id" passed (5/5 passed) time : 551100ns.
+
+
+Running test "unique_resource".
+Default construction creates an invalid resource. : passed.
+Constructing from a valid resource creates a valid unique resource object. : passed.
+A call to unique_resource::reset actually resets the resource. : passed.
+A call to unique_resource::release_ownership invalidates it's resource and returns the held resource. : passed.
+Test "unique_resource" passed (4/4 passed) time : 338300ns.
+
+

@@ -1,4 +1,4 @@
-export module jp3.core.overloaded;
+export module jp3.core:overloaded;
 
 namespace jp3
 {
