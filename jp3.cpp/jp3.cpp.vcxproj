@@ -143,9 +143,13 @@
     <ClCompile Include="jp3.math.position_2d.ixx" />
     <ClCompile Include="jp3.math.position_3d.ixx" />
     <ClCompile Include="jp3.math.position_4d.ixx" />
+    <ClCompile Include="jp3.net.ixx" />
+    <ClCompile Include="jp3.net.network.ixx" />
     <ClCompile Include="jp3.tdd.ixx" />
-    <ClCompile Include="test.cpp" />
     <ClCompile Include="jp3.cpp.ixx" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="jp3.net.includes.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

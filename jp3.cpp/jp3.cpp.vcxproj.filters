@@ -22,11 +22,11 @@
     <Filter Include="math">
       <UniqueIdentifier>{da49e066-5423-4533-9f5c-f1ef58d2b712}</UniqueIdentifier>
     </Filter>
+    <Filter Include="net">
+      <UniqueIdentifier>{182eaa9f-ac54-4b49-abd6-9be07b7dcf30}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="test.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="jp3.cpp.ixx">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -75,5 +75,16 @@
     <ClCompile Include="jp3.math.position_4d.ixx">
       <Filter>math</Filter>
     </ClCompile>
+    <ClCompile Include="jp3.net.ixx">
+      <Filter>net</Filter>
+    </ClCompile>
+    <ClCompile Include="jp3.net.network.ixx">
+      <Filter>net</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="jp3.net.includes.hpp">
+      <Filter>net</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
