@@ -9,7 +9,7 @@ namespace jp3
 	struct event_args
 	{
 		constexpr explicit event_args(caller_type& caller) noexcept :
-			caller{ &caller }
+			caller{ caller }
 		{}
 
 		caller_type& caller;
